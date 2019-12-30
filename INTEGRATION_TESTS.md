@@ -38,7 +38,7 @@ Suppose that the PR number is `#123`. And the PR was made by some user `THEIR_US
 
 8. `git merge --no-ff --no-edit THEIR_USERNAME--THEIR_INITIALS/MY_FEATURE_BRANCH`
 
-9. `git push --force-with-lease origin staging-pr-123`
+9. `git push --force origin staging-pr-123`
 
 10. If there already exists an open pull request to merge the `staging-pr-123` branch into the `master` branch, let `#456` denote the number of this pull request, and go to step 12. If there does not exist such a pull request, go to step 11.
 
